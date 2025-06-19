@@ -1,3 +1,8 @@
+import streamlit as st
+
+st.title("✅ Auto-Prompting App Loaded")
+st.write("If you're seeing this, your app is running!")
+
 def main():
     st.set_page_config(
         page_title="Advanced PPO Text Classification",
